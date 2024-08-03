@@ -1,0 +1,15 @@
+﻿[TaskListBox]
+Coordinates=10,10,139,212
+
+[Enter]
+Coordinates=222,10,45,58
+
+[Label1]
+Coordinates=159,10,53,58
+
+[TaskEdit]
+Coordinates=277,10,65,58
+
+[]
+Coordinates=230,78,91,36
+

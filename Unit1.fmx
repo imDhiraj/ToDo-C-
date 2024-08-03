@@ -1,0 +1,53 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 466
+  ClientWidth = 615
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Enter: TButton
+    Position.X = 464.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Enter'
+    TextSettings.Trimming = None
+    OnClick = EnterClick
+  end
+  object Label1: TLabel
+    Position.X = 56.000000000000000000
+    Position.Y = 40.000000000000000000
+    Text = 'To Do List'
+    TabOrder = 1
+  end
+  object TaskListBox: TListBox
+    Position.X = 56.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 249.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    OnItemClick = TaskListBoxItemClick
+    Viewport.Width = 341.000000000000000000
+    Viewport.Height = 245.000000000000000000
+  end
+  object TaskEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 56.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Enter message'
+  end
+end
