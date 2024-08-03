@@ -21,3 +21,11 @@ To run this project, you will need Embarcadero C++ Builder installed on your sys
    ```sh
    git clone https://github.com/your-username/todo-list-app.git
    cd todo-list-app
+
+2.**Open the Project:**
+
+      Open the .cbproj file in C++ Builder.
+
+3.**Build and Run:**
+
+      Build the project and run the application within the C++ Builder environment.
